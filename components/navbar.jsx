@@ -19,6 +19,7 @@ export default function Navbar() {
       <NavItem href="/" label="Home" />
       <NavItem href="/about" label="About" />
       <NavItem href="/login" label="Login" />
+      <NavItem href="/todo" label="Todo" />
     </nav>
   );
 }
