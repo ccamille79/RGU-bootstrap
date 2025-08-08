@@ -11,7 +11,7 @@ export default function Login() {
 
   return (
     <>
-      <Navbar />
+      
       <main style={{ maxWidth: 400, margin: '2rem auto', padding: '1rem', border: '1px solid #ccc', borderRadius: 5 }}>
         <h1>Login</h1>
         <form onSubmit={handleSubmit}>
