@@ -1,11 +1,10 @@
 import Head from "next/head";
 import { Container } from "react-bootstrap";
-import Navbar from '../components/navbar';
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      
       <Container className="md-container">
         <Head>
           <title>ReactJS with react-bootstrap</title>
